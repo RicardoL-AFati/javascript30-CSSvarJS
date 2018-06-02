@@ -1,0 +1,29 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>CSS variables and JS - Ricardo Ledesma</title>
+     <link rel="stylesheet" type="text/css" href="styles.css">
+ </head>
+ <body>
+     <h3>Update CSS Variables with JS</h3>
+     <div class="controls">
+         <label for="spacing">Spacing: </label>
+         <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+         <label for="rotate">Rotate image: </label>
+         <input id="rotate" type="range" name="rotate" min="-55" max="55" value="0" data-sizing="deg">
+         
+         <label for="image">Image: </label>
+         <button class="image" id="back">-</button><button class="image" id="forward">+</button>
+
+         <label for="grayscale">grayscale: </label>
+         <input id="grayscale" type="range" name="grayscale" min="0" max="100" value="0" data-sizing="%">
+     </div>
+     <img src="https://source.unsplash.com/CeWNEEsHPbA/400x300">
+
+     <script src="script.js"></script>
+ </body>
+ </html>
