@@ -1,9 +1,10 @@
+/* CSS variables defined on root element */
 :root {
     --spacing: 10px;
     --rotate: 0deg;
     --grayscale: 0%;
 }
-
+/* img properties are assigned variable values */
 img {
     padding: var(--spacing);
     transform: rotate(var(--rotate));
